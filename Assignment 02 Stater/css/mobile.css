@@ -1,0 +1,40 @@
+@media (max-width: 767px) {
+  /* Navbar: item xuống dòng */
+  .navbar-nav {
+    display: block;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  /* Thông tin cá nhân: mỗi phần 1 dòng */
+  .personal-info .col-md-6 {
+    width: 100%;
+  }
+
+  /* Nghề nghiệp: chia 1 cột */
+  .career .col-md-4 {
+    width: 100%;
+  }
+
+  /* Chứng chỉ & dự án: 1 cột */
+  .cert .col-md-6, .project .col-md-4 {
+    width: 100%;
+  }
+
+  /* Border: chỉ còn border-bottom */
+  .cert .item, .project .item {
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  /* Footer icon kích cỡ linh hoạt */
+  footer img {
+    width: 10%;
+  }
+}

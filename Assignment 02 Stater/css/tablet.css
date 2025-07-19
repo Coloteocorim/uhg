@@ -1,0 +1,22 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Navbar: ẩn tên ở giữa */
+  .navbar-brand {
+    display: none;
+  }
+
+  /* Thông tin cá nhân 2 cột nhưng thu hẹp margin/padding */
+  .personal-info .row {
+    margin: 0 10px;
+  }
+
+  /* Nghề nghiệp: chia 2 cột */
+  .career .col-md-4 {
+    width: 50%;
+  }
+
+  /* Chứng chỉ & dự án: giữ nguyên layout, thu nhỏ ảnh */
+  .cert img, .project img {
+    width: 100%;
+    height: auto;
+  }
+}
